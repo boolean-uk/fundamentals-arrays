@@ -28,8 +28,7 @@ const withSevenThreeEight = nums.slice(1, 4)
 const combinedNums = numsToMerge.concat(otherNums)
 
 // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
-const newCities = []
-newCities.splice(0, 0, 'Rome', 'Paris', 'Barcelona')
+const newCities = ['Rome', 'Paris', 'Barcelona']
 
 // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
 // note: read about the spread operator
