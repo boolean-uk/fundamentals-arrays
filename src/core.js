@@ -7,7 +7,7 @@ const fourthTeacher = teachers[3]
 console.log(fourthTeacher);
 
 // 2. Replace the fifth teacher in the teachers array with 'Patrick'
-teachers[5]='Patrick';
+teachers[4]='Patrick';
 console.log(teachers);
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
