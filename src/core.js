@@ -6,7 +6,7 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 const fourthTeacher = teachers[3]
 
 // 2. Replace the fifth teacher in the teachers array with 'Patrick'
-teachers[4] ='Patrick'
+teachers[4] = 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
 const lastTeacher = teachers.pop()
