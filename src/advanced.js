@@ -15,7 +15,7 @@ console.log(indexOfFourteen);
 
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.splice(nums.length - 3, 3); // This should hold the removed elements
+const withoutLastThree = nums.splice(nums.length - 3, 3);
 console.log(withoutLastThree)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
