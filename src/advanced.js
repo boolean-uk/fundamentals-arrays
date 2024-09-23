@@ -11,17 +11,17 @@ const firstPlusLast = nums[0] + nums[nums.length - 1]
 const indexOfFourteen = nums.indexOf(14)
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.splice(-3, 3)
+const withoutLastThree = nums.slice(0, nums.length - 3)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
-nums.splice(nums.indexOf(8), 0, 15)
+arrayToExtend.splice(arrayToExtend.indexOf(8), 0, 15)
 
 // 5. check if the array includes the number 100
 const includesHundred = nums.includes(100)
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = nums.splice()
+const withSevenThreeEight = nums.slice(nums.indexOf(7), nums.indexOf(8) + 1)
 
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = numsToMerge.concat(otherNums)
@@ -31,7 +31,7 @@ const newCities = ['Rome', 'Paris', 'Barcelona']
 
 // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
 // note: read about the spread operator
-const moreCities = []
+const moreCities = ['Sydney', ...newCities, 'Berlin']
 
 module.exports = {
   a: firstPlusLast,
