@@ -23,7 +23,7 @@ colours.shift()
 keys.pop()
 
 // 6. Remove Jordan from the countries array
-countries.slice(1,0)
+countries.slice(1, 0)
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = fruits.pop()

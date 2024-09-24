@@ -26,7 +26,6 @@ const withSevenThreeEight = nums.slice(1, 4)
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = numsToMerge.concat(otherNums)
 
-
 // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
 const newCities = ['Rome', 'Paris', 'Barcelona']
 
