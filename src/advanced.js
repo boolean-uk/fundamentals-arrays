@@ -6,16 +6,12 @@ const arrayToExtend = [...nums]
 
 // 1. Set this variable to the sum of the first and last numbers in the nums array
 const firstPlusLast = nums[0] + nums[nums.length - 1]
-console.log('1: ' + nums)
 
 // 2. set this variable to the index where the number 14 is located in the array
 const indexOfFourteen = nums.indexOf(14)
-console.log('2: ' + indexOfFourteen)
 
 // 3. remove the last 3 elements of the array in one single instruction
-nums.splice(-3)
-const withoutLastThree = [...nums]
-console.log(nums)
+const withoutLastThree = nums.slice(0, nums.length - 3)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
