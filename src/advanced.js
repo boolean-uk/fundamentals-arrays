@@ -20,17 +20,17 @@ arrayToExtend.splice(arrayToExtend.indexOf(8), 0, 15)
 const includesHundred = nums.includes(100)
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = []
+const withSevenThreeEight = nums.slice(nums.indexOf(7), (nums.indexOf(8) +1))
 
 // 7. add the numbers from otherNums to the end of numsToMerge
-const combinedNums = []
+const combinedNums = numsToMerge.concat(otherNums)
 
 // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
-const newCities = []
+const newCities = ['Rome', 'Paris', 'Barcelona']
 
 // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
 // note: read about the spread operator
-const moreCities = []
+const moreCities = ['Sydney', ...newCities, 'Berlin']
 
 module.exports = {
   a: firstPlusLast,
