@@ -17,7 +17,7 @@ const firstTeacher = teachers.shift()
 // 5. Add a teacher named 'Vanessa' to the end of the teachers array
 teachers.push('Vanessa')
 // 6. Remove 'Ed' from the teachers array
-let index = teachers.indexOf('Ed')
+const index = teachers.indexOf('Ed')
 teachers.splice(index, 1)
 // 7. Add a teacher named 'Sarah' to the beginning of the teachers array
 teachers.unshift('Sarah')
