@@ -33,7 +33,7 @@ const newCities = ['Rome', 'Paris', 'Barcelona']
 
 // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
 // note: read about the spread operator
-const moreCities = ['Sydney', ...newCities, 'Berlin'] 
+const moreCities = ['Sydney', ...newCities, 'Berlin']
 
 module.exports = {
   a: firstPlusLast,
